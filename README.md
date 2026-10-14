@@ -1,9 +1,24 @@
 # Exovision
 
-Exovision is a NASA Space Apps 2025 project exploring machine learning for exoplanet classification with Kepler Objects of Interest (KOI), K2, and TESS datasets.
+Exovision is a team project built by **Stellar Detectives** during the **NASA International Space Apps Challenge at the University of Victoria (UVic), October 2025**. It explores machine learning for exoplanet classification using Kepler Objects of Interest (KOI), K2, and TESS datasets.
+
+**Award: Stellar Detectives won the Rising Stars category at the UVic hackathon.**
 
 - [Live demo](https://exovision-spaceapps.vercel.app/)
 - [Challenge: A World Away — Hunting for Exoplanets with AI](https://www.spaceappschallenge.org/2025/challenges/a-world-away-hunting-for-exoplanets-with-ai/)
+
+## Team and contributions
+
+Exovision was a collaborative hackathon project. The Stellar Detectives team combined machine learning research with application development, interface design, and data visualization.
+
+| Team member | Contribution |
+| --- | --- |
+| **Taimoor Shahzad** | Machine learning research and development, mission-specific classification workflows, and project design. |
+| **Saad Khan** | Full-stack development. |
+| **Abdullah Shah** | Full-stack development. |
+| **Muhammad Samad Mahar** | UI/UX design and data visualization. |
+
+The team's main roles are shown on the final slide of the [Exovision pitch presentation](<Traversing Cosmic Objects and Distances in Collaboration With NASA.pdf>). This repository contains the ML notebooks, datasets, and presentation materials; the [live demo](https://exovision-spaceapps.vercel.app/) presents the team's web application.
 
 ## Repository contents
 
@@ -16,8 +31,8 @@ Exovision is a NASA Space Apps 2025 project exploring machine learning for exopl
 | `k2pandc.csv` | K2 dataset export. |
 | `tessdataset.csv` | TESS dataset export. |
 | `Challenge & Live Vercel Link.txt` | Original challenge and demo links. |
-| `Traversing Cosmic Objects and Distances in Collaboration With NASA.pdf` | NASA educational reference document supplied with the project. |
-| `Traversing Cosmic Objects and Distances in Collaboration With NASA Lesson 1 - Stars and Their Fates (Student Version).pptx` | Companion educational presentation supplied with the project. |
+| `Traversing Cosmic Objects and Distances in Collaboration With NASA.pdf` | Exovision pitch presentation in PDF format, including the Stellar Detectives team roles. The original filename is retained. |
+| `Traversing Cosmic Objects and Distances in Collaboration With NASA Lesson 1 - Stars and Their Fates (Student Version).pptx` | Editable PowerPoint version of the Exovision pitch presentation. The original filename is retained. |
 
 The supplied folder contains notebooks, datasets, and reference materials. The source code for the deployed web application and trained model artifacts were not included in that folder.
 
@@ -49,4 +64,4 @@ The original notebooks and data are preserved as supplied. Saved notebook output
 
 ## Data and reference attribution
 
-The K2 and TESS CSV headers identify the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) as their source. The included PDF and presentation are reference materials supplied with the project; their original attribution and notices remain in the files.
+The K2 and TESS CSV headers identify the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) as their source. The included PDF and PowerPoint are the team's Exovision pitch presentation, preserved as supplied with their original filenames and contents.
